@@ -1,0 +1,50 @@
+body {
+  background-image: url(tyler.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: 3%;
+}
+
+h3 {
+  color: white;
+  position: fixed;
+  font-size: 15px;
+  text-shadow: 1px 1px gray;
+}
+
+h4 {
+  color: white;
+  position: absolute;
+  top: 40%;
+  font-size: 15px;
+  text-shadow: 2px 2px gray;
+}
+
+p.sansserif {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  line-height: 15px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+}
+
+p.fb {
+    word-spacing: 30px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size: 15px;
+    text-shadow: 1px 1px gray;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: LightGray;
+}
+a:visited {
+  color: white;
+}
