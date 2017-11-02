@@ -2,6 +2,7 @@ body {
   background-image: url(tyler.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: grid;
   background-attachment: fixed;
   margin-left: 3%;
 }
@@ -29,6 +30,8 @@ p.sansserif {
 }
 
 p.fb {
+    top:90%;
+    position: fixed;
     word-spacing: 30px;
     font-family: "Arial Narrow", Arial, sans-serif;
     font-weight: bold;
@@ -47,4 +50,72 @@ a:hover{
 }
 a:visited {
   color: white;
+}
+
+
+#insta-square-icon {
+  top: 90%;
+  position: fixed;
+  border-radius: 6px;
+  background-size: contain;
+  border: 3px solid white;
+  padding: 5px;
+  width: 3px;
+  height: 3px;
+  text-shadow:  1px 2px gray;
+}
+
+#insta-circle-icon {
+  top: 90%;
+  border-radius: 3px;
+  position: relative;
+  background-size: contain;
+  border: 3px solid white;
+  padding: 3px;
+  width: 3px;
+  height: 3px;
+}
+
+
+
+
+
+.dropbtn {
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
